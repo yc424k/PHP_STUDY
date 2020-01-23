@@ -18,16 +18,7 @@
 		</h2>
 		
 		<?php
-    		echo file_get_contents("data/airforce");
+    		echo file_get_contents("/workspace/PHP-MySQL/PHP-WEB/data/army");
      	?>
-		
-		<?php
-			echo $_SERVER["DOCUMENT_ROOT"];
-		?>
-
-
-
-
-		
 	</body>
 </html>
